@@ -1,11 +1,10 @@
-FROM mcr.microsoft.com/playwright:v1.44.0-jammy
-
-WORKDIR /app
+FROM mcr.microsoft.com/playwright:v1.52.0-noble
 
 COPY package.json package-lock.json* ./
 RUN npm ci || npm install
 
 COPY . .
+COPY test/ test/
 
 EXPOSE 8080
 
