@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright:v1.52.0-noble
+FROM mcr.microsoft.com/playwright:v1.55.1-noble
 
 COPY package.json package-lock.json* ./
 RUN npm ci || npm install
