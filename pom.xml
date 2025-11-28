@@ -10,7 +10,7 @@
 
     <artifactId>diva-docker-playwright</artifactId>
     <packaging>pom</packaging>
-    <version>1.34.0-SNAPSHOT</version>
+    <version>1.35-SNAPSHOT</version>
     <name>DiVA Playwright Docker</name>
 
     <properties>
@@ -22,7 +22,7 @@
         <connection>scm:git:https://github.com/lsu-ub-uu/diva-docker-divaclient-playwright.git</connection>
         <developerConnection>scm:git:https://github.com/lsu-ub-uu/diva-docker-divaclient-playwright.git</developerConnection>
         <url>https://github.com/lsu-ub-uu/diva-docker-divaclient-playwright.git</url>
-        <tag>release/1.34</tag>
+        <tag>HEAD</tag>
     </scm> 
 
     <dependencies>
